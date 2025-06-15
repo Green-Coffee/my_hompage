@@ -1,0 +1,111 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+
+## GPT Recommended files ##
+# -----------------------------
+# 🔧 일반 무시 설정 (공통)
+# -----------------------------
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# -----------------------------
+# 🧠 IDE 설정 관련
+# -----------------------------
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# -----------------------------
+# 🐦 Flutter / Dart / Pub 관련
+# -----------------------------
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/             # 프로젝트 전역 build 폴더
+
+# 웹 전용 빌드 폴더 (웹 배포 시 생성됨)
+web/build/
+
+# -----------------------------
+# 🤖 Android 관련 (있을 경우)
+# -----------------------------
+/android/.gradle/
+/android/app/debug/
+/android/app/profile/
+/android/app/release/
+
+# -----------------------------
+# 🍎 iOS 관련 (있을 경우)
+# -----------------------------
+ios/.symlinks/
+ios/Flutter/
+ios/Pods/
+ios/Runner.xcworkspace/
+
+# -----------------------------
+# 💻 macOS, Linux, Windows 관련
+# -----------------------------
+macos/Flutter/ephemeral/
+linux/flutter/ephemeral/
+windows/flutter/ephemeral/
+
+# -----------------------------
+# 🧩 디버깅 및 난독화 관련
+# -----------------------------
+app.*.symbols
+app.*.map.json
