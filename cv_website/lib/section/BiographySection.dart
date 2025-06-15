@@ -18,9 +18,14 @@ class BiographySection extends StatelessWidget {
         future: _loadBiography(),
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
-            return const CircularProgressIndicator();
+            return const Center(
+              child: CircularProgressIndicator(color: Colors.white),
+            );
           } else if (snapshot.hasError) {
-            return const Text('Failed to load biography.');
+            return const Text(
+              'Failed to load biography.',
+              style: TextStyle(color: Colors.white),
+            );
           } else {
             return Row(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -38,7 +43,11 @@ class BiographySection extends StatelessWidget {
                 Expanded(
                   child: Text(
                     snapshot.data ?? '',
-                    style: Theme.of(context).textTheme.bodyMedium,
+                    style: const TextStyle(
+                      color: Colors.white,
+                      fontSize: 16,
+                      height: 1.5,
+                    ),
                     textAlign: TextAlign.left,
                   ),
                 ),

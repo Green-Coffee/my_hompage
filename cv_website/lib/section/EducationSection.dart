@@ -67,21 +67,42 @@ class _EducationEntry extends StatelessWidget {
     return Row(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        const Text('•  '),
+        const Text('• ', style: TextStyle(color: Colors.white)),
         Expanded(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text(school, style: theme.titleMedium?.copyWith(fontWeight: FontWeight.bold)),
+              Text(
+                school,
+                style: theme.titleMedium?.copyWith(
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white,
+                ),
+              ),
               if (degree.isNotEmpty)
-                Text(degree, style: theme.bodyLarge),
-              Text(duration, style: theme.bodyMedium),
+                Text(
+                  degree,
+                  style: theme.bodyLarge?.copyWith(color: Colors.white),
+                ),
+              Text(
+                duration,
+                style: theme.bodyMedium?.copyWith(color: Colors.white),
+              ),
               if (advisor.isNotEmpty)
-                Text('Advisor: $advisor', style: theme.bodyMedium),
+                Text(
+                  'Advisor: $advisor',
+                  style: theme.bodyMedium?.copyWith(color: Colors.white),
+                ),
               if (thesis.isNotEmpty)
-                Text('Thesis: $thesis', style: theme.bodyMedium),
+                Text(
+                  'Thesis: $thesis',
+                  style: theme.bodyMedium?.copyWith(color: Colors.white),
+                ),
               if (gpa.isNotEmpty)
-                Text(gpa, style: theme.bodyMedium),
+                Text(
+                  gpa,
+                  style: theme.bodyMedium?.copyWith(color: Colors.white),
+                ),
             ],
           ),
         ),
