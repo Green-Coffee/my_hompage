@@ -1,0 +1,9 @@
+Hi! I'm Minseung Shin, a software engineer specializing in EDA tool development at Siemens EDA, Korea.  
+
+I received my M.S. degree in Electrical Engineering from KAIST in February 2025, where I worked under the supervision of Prof. Youngsoo Shin.  
+
+My research focused on SPICE acceleration and PDN impedance analysis, leading to several academic publications.
+
+I'm particularly interested in the intersection of machine learning, and design verification/automation.
+
+With a strong background in C/C++, Verilog, and EDA tools, I strive to develop high-performance and robust design tools for the semiconductor industry.
