@@ -1,18 +1,19 @@
 import 'package:flutter/material.dart';
-import 'Section.dart';
+import '../ui/Section.dart';
 
 class EducationSection extends StatelessWidget {
   const EducationSection({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Section(
+    return const Section(
       title: 'Education',
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
-        children: const [
+        children: [
           _EducationEntry(
-            school: 'Korea Advanced Institute of Science and Technology (KAIST), Daejeon, South Korea',
+            school:
+                'Korea Advanced Institute of Science and Technology (KAIST), Daejeon, South Korea',
             degree: 'M.S. in Electrical Engineering',
             duration: 'Sep. 2023 – Feb. 2025 (Early graduation)',
             advisor: 'Prof. Youngsoo Shin',
@@ -27,15 +28,6 @@ class EducationSection extends StatelessWidget {
             advisor: '',
             thesis: '',
             gpa: 'Cumulative GPA: 4.38 / 4.5 (Ranked 1st out of 98 students)',
-          ),
-          SizedBox(height: 12),
-          _EducationEntry(
-            school: 'Gimhae Daecheong High School',
-            degree: '',
-            duration: 'Mar. 2015 – Feb. 2018',
-            advisor: '',
-            thesis: '',
-            gpa: '',
           ),
         ],
       ),

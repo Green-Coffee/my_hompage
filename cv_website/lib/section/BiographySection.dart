@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart'; // rootBundle
 
-import 'Section.dart';
+import '../ui/Section.dart';
 
 class BiographySection extends StatelessWidget {
   const BiographySection({super.key});
@@ -27,10 +27,11 @@ class BiographySection extends StatelessWidget {
               style: TextStyle(color: Colors.white),
             );
           } else {
-            return Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                ClipRRect(
+            return LayoutBuilder(
+              builder: (context, constraints) {
+                bool isNarrow = constraints.maxWidth < 600;
+
+                final imageWidget = ClipRRect(
                   borderRadius: BorderRadius.circular(8),
                   child: Image.asset(
                     'assets/profile.png',
@@ -38,20 +39,38 @@ class BiographySection extends StatelessWidget {
                     height: 250,
                     fit: BoxFit.cover,
                   ),
-                ),
-                const SizedBox(width: 16),
-                Expanded(
-                  child: Text(
-                    snapshot.data ?? '',
-                    style: const TextStyle(
-                      color: Colors.white,
-                      fontSize: 16,
-                      height: 1.5,
-                    ),
-                    textAlign: TextAlign.left,
+                );
+
+                final textWidget = Text(
+                  snapshot.data ?? '',
+                  style: const TextStyle(
+                    color: Colors.white,
+                    fontSize: 16,
+                    height: 1.5,
                   ),
-                ),
-              ],
+                  textAlign: TextAlign.left,
+                );
+
+                if (isNarrow) {
+                  return Column(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      imageWidget,
+                      const SizedBox(height: 16),
+                      textWidget,
+                    ],
+                  );
+                } else {
+                  return Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      imageWidget,
+                      const SizedBox(width: 16),
+                      Expanded(child: textWidget),
+                    ],
+                  );
+                }
+              },
             );
           }
         },

@@ -20,9 +20,8 @@ class Section extends StatelessWidget {
             color: Colors.white,
           ),
         ),
-        const SizedBox(height: 15),
+        const SizedBox(height: 30),
         child,
-        const SizedBox(height: 80),
       ],
     );
 
@@ -33,10 +32,10 @@ class Section extends StatelessWidget {
         child: BackdropFilter(
           filter: ImageFilter.blur(sigmaX: 20, sigmaY: 20),
           child: Container(
-            width: double.infinity, // 부모가 제한하면 여기에 맞게 늘어남
+            width: double.infinity,
             padding: const EdgeInsets.all(24),
             decoration: BoxDecoration(
-              color: Colors.black.withOpacity(0.005), // 🔧 더 어둡게 변경 가능
+              color: Colors.black.withOpacity(0.005),
               borderRadius: BorderRadius.circular(20),
               border: Border.all(color: Colors.white.withOpacity(0.25)),
               boxShadow: [

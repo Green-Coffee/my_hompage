@@ -6,4 +6,4 @@ My research focused on SPICE acceleration and PDN impedance analysis, leading to
 
 I'm particularly interested in the intersection of machine learning, and design verification/automation.
 
-With a strong background in C/C++, Verilog, and EDA tools, I strive to develop high-performance and robust design tools for the semiconductor industry.
+With a strong background in C/C++, EDA tools, I strive to develop high-performance and robust design tools for the semiconductor industry.
