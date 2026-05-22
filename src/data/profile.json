@@ -1,0 +1,168 @@
+{
+  "header": {
+    "name": "Minseung Shin",
+    "title": "R&D Software Engineer @ Siemens EDA",
+    "profileImage": {
+      "src": "image.png",
+      "alt": "Minseung Shin"
+    },
+    "socialLinks": [
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/minseung-shin-a4a016282/"
+      },
+      {
+        "type": "mail",
+        "url": "mailto:minnx7@naver.com"
+      }
+    ]
+  },
+
+  "sections": {
+    "about": {
+      "title": "About",
+      "paragraphs": [
+        "I am an R&D Software Engineer at Siemens EDA, developing scalable simulation technologies for Solido FastSPICE.",
+        "My work focuses on enabling accurate and efficient circuit simulation for large-scale designs.",
+        "Prior to Siemens EDA, I worked on digital power analysis software development.",
+        "During my master's studies at KAIST, I conducted research on power integrity, machine learning-based optimization, and advanced design methodologies.",
+        "Beyond EDA, I enjoy studying semiconductor devices, circuit theory, numerical analysis, computer architecture, and the emerging applications of AI and large language models."
+      ]
+    },
+
+    "education": {
+      "title": "Education",
+      "items": [
+        {
+          "school": "Korea Advanced Institute of Science and Technology (KAIST)",
+          "degree": "M.S. in Electrical Engineering",
+          "period": "2023.07 - 2025.02",
+          "description": "Research in Power Integrity, Machine Learning-based Prediction/Optimization, Circuit Simulation, and Electronic Design Automation (Design Methodology)."
+        },
+        {
+          "school": "Kyungpook National University",
+          "degree": "B.S. in Electronics Engineering (Summa Cum Laude)",
+          "period": "2018.03 - 2023.07"
+        }
+      ]
+    },
+
+    "experience": {
+      "title": "Experience",
+      "items": [
+        {
+          "role": "R&D Software Engineer",
+          "company": "Siemens EDA",
+          "period": "2025.07 - Present",
+          "highlights": [
+            "Developing scalable simulation technologies for Solido FastSPICE.",
+            "Researching circuit partitioning and signal modeling techniques.",
+            "Investigating model order reduction (MOR) and numerical algorithms."
+          ]
+        },
+        {
+          "role": "R&D Software Engineer",
+          "company": "Baum Design Systems",
+          "period": "2025.01 - 2025.06",
+          "highlights": [
+            "Developed methodologies for digital power estimation and simulation."
+          ]
+        }
+      ]
+    },
+
+    "skills": {
+      "title": "Interests / Skills",
+      "groups": [
+        {
+          "name": "Circuit Simulation",
+          "items": [
+            "FastSPICE",
+            "Circuit Partitioning",
+            "Signal/Device Modeling",
+            "Model Order Reduction",
+            "Numerical Analysis"
+          ]
+        },
+        {
+          "name": "Electronic Design Automation",
+          "items": [
+            "Power Analysis",
+            "Static Timing Analysis",
+            "Clock Tree Synthesis",
+            "Physical Design",
+            "Design Automation"
+          ]
+        },
+        {
+          "name": "Programming",
+          "items": [
+            "C/C++",
+            "Python",
+            "LLM",
+            "Linux",
+            "Git",
+            "TCL",
+            "Shell Script"
+          ]
+        }
+      ]
+    },
+
+    "publications": {
+      "title": "Publications",
+      "items": [
+        {
+          "title": "On-Chip Decoupling Capacitor Placement with Impedance Constraint for DRAM Design",
+          "link": "https://ieeexplore.ieee.org/abstract/document/11189202",
+          "authors": "Minseung Shin et al.",
+          "venue": "Proc. Int’l Symp. on Machine Learning for CAD (MLCAD)",
+          "summary": "Machine learning-based optimization framework for DRAM power delivery networks and decoupling capacitor placement."
+        },
+        {
+          "title": "Fast and Accurate Analysis of Power Distribution Network Impedance for DRAM Design",
+          "link": "https://ieeexplore.ieee.org/document/11043868",
+          "authors": "Minseung Shin, Shilong Zhang, and Youngsoo Shin",
+          "venue": "Proc. Int’l Symp. on Circuits and Systems (ISCAS),",
+          "summary": "Deep learning-based impedance prediction methodology for rapid PDN analysis."
+        },
+        {
+          "title": "Compact Q-Learning-Based Standard Cell Layout Compiler for 3nm GAAFET and Beyond",
+          "link": "https://ieeexplore.ieee.org/document/10396096",
+          "authors": "Minseung Shin, Jongbeom Kim, Yunjeong Shin, and Taigon Song",
+          "venue": "Proc. Int’l SoC Design Conf. (ISOCC)",
+          "summary": "Q-learning-based standard cell layout optimization framework for advanced technology nodes."
+        },
+        {
+          "title": "High-throughput PIM (Processing in-Memory) for DRAM using Bank-level Pipelined Architecture,",
+          "link": "https://ieeexplore.ieee.org/document/10396302",
+          "authors": "Hyunsoo Lee, Hyundong Lee, Minseung Shin, Gyuri Shin, Sumin Jeon, and Taigon Song",
+          "venue": "Proc. Int’l SoC Design Conf. (ISOCC)",
+          "summary": "High-throughput processing in-memory architecture for DRAM applications."
+        }
+      ]
+    },
+
+
+
+    "contact": {
+      "title": "Contact",
+      "items": [
+        {
+          "type": "mail",
+          "url": "mailto:minnx7@naver.com",
+          "label": "minnx7@naver.com"
+        },
+        {
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/minseung-shin-a4a016282/",
+          "label": "LinkedIn"
+        }
+      ]
+    }
+  },
+
+  "footer": {
+    "copyright": "© 2026 Minseung Shin. All rights reserved."
+  }
+}
